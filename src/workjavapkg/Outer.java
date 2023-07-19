@@ -1,5 +1,7 @@
 package workjavapkg;
 
+//nested classes
+
 public class Outer {
 	int a = 19;
 
@@ -9,7 +11,13 @@ public class Outer {
 		}
 	}
 	public static void main(String[] args) {
-
+		
+		Outer outerObject = new Outer();
+        Outer.Inner innerObject = outerObject.new Inner();
+        
+        innerObject.display();
+		
+		
 	}
 
 }

@@ -4,6 +4,10 @@ package workjavapkg;
 
 public class Outer {
 	int a = 19;
+	void calllinear() {
+		Inner i = new Inner();
+		i.display();
+	}
 
 	class Inner{
 		void display() {
@@ -13,9 +17,10 @@ public class Outer {
 	public static void main(String[] args) {
 		
 		Outer outerObject = new Outer();
-        Outer.Inner innerObject = outerObject.new Inner();
-        
-        innerObject.display();
+//      Outer.Inner innerObject = outerObject.new Inner();
+//		innerObject.display();
+		
+        outerObject.calllinear();
 		
 		
 	}

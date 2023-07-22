@@ -21,6 +21,8 @@ public class Outer {
 //		innerObject.display();
 		
         outerObject.calllinear();
+        
+        
 		
 	}
 

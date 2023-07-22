@@ -9,5 +9,6 @@ public class OuterClassStatic {
 	}
 	public static void main(String[] args) {
 		OuterClassStatic.InnerClassStatic.add(5);
+		
 	}
 }

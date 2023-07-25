@@ -31,8 +31,14 @@ public class Encapsulation {
 				
 		Encapsulation obj = new Encapsulation(43,"james");
 				
-		System.out.println(obj.getAge()+"\n"+obj.getName());
+		System.out.println(obj.toString());
+		System.out.print(Thread.currentThread().getName());
 
+	}
+
+	@Override
+	public String toString() {
+		return "Encapsulation [age=" + age + ", name=" + name + "]";
 	}
 
 

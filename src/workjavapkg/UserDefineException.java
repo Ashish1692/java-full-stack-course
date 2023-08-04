@@ -1,6 +1,10 @@
 package workjavapkg;
 
 public class UserDefineException extends Exception{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	String ex = null;
 
 	public UserDefineException(String myex) {

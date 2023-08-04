@@ -42,8 +42,8 @@ public class Mysql {
             System.out.println("MySQL JDBC driver not found!");
             e.printStackTrace();
         } finally {
-        	connection.close();
-        	
+            connection.close();
+
         }
     }
 }
